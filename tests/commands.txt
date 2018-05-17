@@ -1,0 +1,2 @@
+table_add lora_frame_type _lora_uplink 1 =>
+table_add lora_frame_type _lora_downlink 2 =>  
