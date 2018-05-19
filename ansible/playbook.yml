@@ -32,5 +32,6 @@
     - pygccxml
     - gccxml
     - netanim
+    - ns3
     - dlinknctu-mininet
     - help

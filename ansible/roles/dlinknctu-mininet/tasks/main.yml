@@ -3,14 +3,6 @@
     mininet_repos: "https://github.com/dlinknctu/mininet.git"
     mininet_dir_path: "{{ home_location }}/mininet"
   tags: mininet
-- name: Clone dlinknctu-mininet
-  git:
-    repo: "{{ mininet_repos }}"
-    dest: "{{ mininet_dir_path }}"
-    update: no
-    accept_hostkey: true
-    version: "opennet"
-  tags: mininet
 - name: Install dlinknctu-mininet
   command: "./util/install.sh -n"
   args:
