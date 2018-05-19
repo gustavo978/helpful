@@ -1,4 +1,7 @@
 ns-allinone-3.22/ns-3.22/build/*
+ns-allinone-3.22/ns-3.22/.waf-1.7.16-9ca17eb492c97b689870b4ff9db75880/waflib/
+*/bindings/*
+*/pybindgen/*
 
 # Prerequisites
 *.d
