@@ -37,7 +37,7 @@ apt-get -y install libboost-signals-dev libboost-filesystem-dev
 
 ### Installing
 
-Ansible install
+Ansible install, use Ubuntu 14.04
 ```
 git clone git@github.com:gustavo978/helpful.git
 cd helpful
