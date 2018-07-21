@@ -9,7 +9,6 @@
     - ez_setup
     - ntp
     - openvswitch
-    - qperf
 
 - hosts: opennet-slave
   remote_user: root

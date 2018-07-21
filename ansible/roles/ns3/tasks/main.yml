@@ -11,6 +11,7 @@
     - netanim
     - wifi
     - lte
+    - lorawan
   args:
     chdir: "{{ home_location }}/ns-allinone-{{ NS3_VERSION }}/ns-{{ NS3_VERSION }}"
   async: 0

@@ -33,6 +33,13 @@ apt-get -y install cmake libc6-dev libc6-dev-i386 libclang-dev
 apt-get -y install libgtk2.0-0 libgtk2.0-dev
 apt-get -y install vtun lxc
 apt-get -y install libboost-signals-dev libboost-filesystem-dev
+
+git clone https://github.com/linux-rdma/qperf.git
+./cleanup
+./autogen.sh
+./configure
+make
+make install
 ```
 
 ### Installing
